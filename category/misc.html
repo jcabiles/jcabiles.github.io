@@ -14,46 +14,14 @@
         <header id="banner" class="body">
                 <h1><a href="../">Data Primalytics </a></h1>
                 <nav><ul>
+                    <li><a href="../category/excel.html">Excel</a></li>
                     <li class="active"><a href="../category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../fantasy-basketball-team-stat-rankings-cheat-sheet.html">Fantasy Basketball Team Stat Rankings Cheat Sheet</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2018-04-22T00:00:00-07:00">
-                Published: Sun 22 April 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/john-cabiles.html">John Cabiles</a>
-        </address>
-<p>In <a href="../category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info --><h1>What We'll Cover</h1>
-<ul>
-<li>Objective of Fantasy Basketball</li>
-<li>Overview of Cheat Sheet</li>
-<li>Explaining the Excel Functions We'll Use</li>
-<li>Initial Setup of Cheat Sheet</li>
-<li>Putting It All Together</li>
-<li>Excel Tips</li>
-<li>Predicting the Fantasy League Playoffs</li>
-</ul>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../a-test-on-displaying-r-plots-on-pelican.html" rel="bookmark"
-                           title="Permalink to A Test on Displaying R Plots on Pelican">A Test on Displaying R Plots on Pelican</a></h1>
-                </header>
-
-                <div class="entry-content">
+                    <h1 class="entry-title"><a href="../a-test-on-displaying-r-plots-on-pelican.html">A Test on Displaying R Plots on Pelican</a></h1>
 <footer class="post-info">
         <abbr class="published" title="2018-04-21T00:00:00-07:00">
                 Published: Sat 21 April 2018
@@ -64,11 +32,33 @@
         </address>
 <p>In <a href="../category/misc.html">misc</a>.</p>
 
-</footer><!-- /.post-info -->                <h2>Intro</h2>
-<p>I'm not entirely sure how markdown files containing R code will look on this Pelican website.  To make sure that plots I generate will actually show up, I've created a really simply plot on this R markdown file.  Then I'll see if the plot will be successfully displayed on …</p>
-                <a class="readmore" href="../a-test-on-displaying-r-plots-on-pelican.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
+</footer><!-- /.post-info --><h2>Intro</h2>
+<p>I'm not entirely sure how markdown files containing R code will look on this Pelican website.  To make sure that plots I generate will actually show up, I've created a really simply plot on this R markdown file.  Then I'll see if the plot will be successfully displayed on the webpage.</p>
+<p>Let's cross our fingers.</p>
+<h2>Sample Data</h2>
+<p>The code below is from the R Markdown Cheat Sheet, which can be found on <a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">the R Markdown cheat sheet</a>.</p>
+<p>I also used sample code from <a href="https://www.harding.edu/fmccown/r/">Frank McCown</a>.</p>
+<div class="highlight"><pre><span></span><span class="c1"># Define 2 vectors</span>
+cars <span class="o">&lt;-</span> <span class="kt">c</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="m">3</span><span class="p">,</span> <span class="m">6</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">9</span><span class="p">)</span>
+trucks <span class="o">&lt;-</span> <span class="kt">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">4</span><span class="p">,</span> <span class="m">5</span><span class="p">,</span> <span class="m">12</span><span class="p">)</span>
+
+<span class="c1"># Graph cars using a y axis that ranges from 0 to 12</span>
+plot<span class="p">(</span>cars<span class="p">,</span> type<span class="o">=</span><span class="s">&quot;o&quot;</span><span class="p">,</span> col<span class="o">=</span><span class="s">&quot;blue&quot;</span><span class="p">,</span> ylim<span class="o">=</span><span class="kt">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">12</span><span class="p">))</span>
+
+<span class="c1"># Graph trucks with red dashed line and square points</span>
+lines<span class="p">(</span>trucks<span class="p">,</span> type<span class="o">=</span><span class="s">&quot;o&quot;</span><span class="p">,</span> pch<span class="o">=</span><span class="m">22</span><span class="p">,</span> lty<span class="o">=</span><span class="m">2</span><span class="p">,</span> col<span class="o">=</span><span class="s">&quot;red&quot;</span><span class="p">)</span>
+
+<span class="c1"># Create a title with a red, bold/italic font</span>
+title<span class="p">(</span>main<span class="o">=</span><span class="s">&quot;Autos&quot;</span><span class="p">,</span> col.main<span class="o">=</span><span class="s">&quot;red&quot;</span><span class="p">,</span> font.main<span class="o">=</span><span class="m">4</span><span class="p">)</span>
+</pre></div>
+
+
+<p><img alt="plot of chunk unnamed-chunk-1" src="../figure/r-plot-test-unnamed-chunk-1-1.png"></p>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
 
             <li><article class="hentry">
                 <header>

@@ -14,33 +14,39 @@
         <header id="banner" class="body">
                 <h1><a href="./">Data Primalytics </a></h1>
                 <nav><ul>
+                    <li><a href="./category/excel.html">Excel</a></li>
                     <li><a href="./category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="./fantasy-basketball-team-stat-rankings-cheat-sheet.html">Fantasy Basketball Team Stat Rankings Cheat Sheet</a></h1>
+                    <h1 class="entry-title"><a href="./fantasy-basketball-cheat-sheet-part-1-an-introduction-to-fantasy-basketball.html">Fantasy Basketball Cheat Sheet Part 1: An Introduction to Fantasy Basketball</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2018-04-22T00:00:00-07:00">
-                Published: Sun 22 April 2018
+        <abbr class="published" title="2018-05-09T00:00:00-07:00">
+                Published: Wed 09 May 2018
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="./author/john-cabiles.html">John Cabiles</a>
         </address>
-<p>In <a href="./category/misc.html">misc</a>.</p>
+<p>In <a href="./category/excel.html">Excel</a>.</p>
 
-</footer><!-- /.post-info --><h1>What We'll Cover</h1>
-<ul>
-<li>Objective of Fantasy Basketball</li>
-<li>Overview of Cheat Sheet</li>
-<li>Explaining the Excel Functions We'll Use</li>
-<li>Initial Setup of Cheat Sheet</li>
-<li>Putting It All Together</li>
-<li>Excel Tips</li>
-<li>Predicting the Fantasy League Playoffs</li>
-</ul>                </article>
+</footer><!-- /.post-info --><hr>
+<h2>Intro</h2>
+<p>I played fantasy basketball for the first time this past NBA season.  Despite <a href="https://www.youtube.com/watch?v=NZf9NFaCQHQ">Charles Barkley's negative opinion on sports analytics</a>, I thought it would be worthwhile to use data analysis tools to help me make my fantasy team more competitive.</p>
+<p>I won 2nd place in my fantasy league, so I suppose my plan worked.  While the prize money was nice, it was more valuable that I gained insights on how to use Excel and R to create models that allowed me to maximize my chances of winning.</p>
+<p>In this three-part post, I'll explain what fantasy basketball is, describe a cheat sheet I used to build a more competitive team, and break down the components of that cheat sheet.  This first post explains the Excel/Google Sheets functions that I used to build it.</p>
+<h2>What is Fantasy Basketball?</h2>
+<p>The premise of fantasy basketball is very similar to other fantasy sports, especially fantasy baseball.  You and a group of people (at least 4 but ideally more) create a league in which each of you pretends to be an NBA manager who builds a team that is comprised of real NBA players.  Every time the NBA players on your team racks up box score stats in real life, those stats count towards your team's totals in the respective stats category.  The goal is to put together a team that beats out other teams in as many of those categories as possible</p>
+<p>The rules for fantasy basketball vary quite a bit <a href="https://www.fantasysports.net/fantasy-basketball">depending on the format of your league</a>.  My league's format was <a href="http://games.espn.com/fba/resources/help/content?name=scoring-formats">10-category, head-to-head</a>.  Our season started with a draft, in which each of us took turns trying to pick the best player who was still undrafted.  After this draft, the players who were left unpicked are considered "free agents", meaning that managers can drop an existing player on his team and pick up any players from <strong>free agency</strong>.  (That dropped player will be available to other players after a certain number of days... this is called the <strong>waiver wire</strong>).  Good managers figure out how to improve their team over the course of the season by picking up players from the waiver wire or free agency.</p>
+<p>Every week, I played a different team in my league and activated players on my roster who I believed would accumulate a lot of stats.  Like the NBA, you rise in seed rankings every time your team wins.  At the end of the season, the teams with high-seeding make the playoffs.  The winner is decided by the outcome of the playoffs.  In my league, I battled the #1 seed in our fantasy league's Finals round.  Since I lost the Finals, I won 2nd place.</p>
+<h2>My Fantasy Basketball Cheat Sheet</h2>
+<p>As I mentioned, good managers figure out ways to improve their team by picking up players from free agency/waiver wire.  But how would you determine who to pick up?  This answer depends on the construction of your team.</p>
+<p>Generally, if your team is really good in a specific category, you’ll probably beat other teams in that category.  When you beat a team in a category, you win a fantasy point.  For example, if your team gets more rebounds than your opponent, then you get a fantasy point for rebounding.  Every week, the goal is to get more fantasy points than the other team you're playing against.</p>
+<p>So what if your team is really good at MOST categories?  In this case, you have a good chance to beat MOST teams every week.  If your team is consistently #1 in points, rebounds, assists, blocks, and steals… you’ll probably win the whole thing, as long as one of your key players doesn’t get injured.</p>
+<p><strong>This is where my cheat sheet came in handy</strong>.  My cheat sheet was really useful for trying to evaluate which players to pick up in free agency or on the waiver wire.  If a player gives me a boost in a statistical category, then I’d consider picking him up, as long as he doesn’t hurt me too badly in another category.</p>
+<p>In Part 2, I will explain the Excel functions that I used to put my cheat sheet together.  And in Part 3, I will show you how my cheat sheet works.</p>                </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
