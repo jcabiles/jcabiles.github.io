@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Data Primalytics - John Cabiles</title>
-        <link rel="stylesheet" href="../theme/css/main.css" />
+        <title>Fantasy Basketball Cheat Sheet Part 2: VLOOKUP and Other Useful Excel Functions</title>
+        <link rel="stylesheet" href="./theme/css/main.css" />
 
         <!--[if IE]>
             <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,27 +12,32 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="../">Data Primalytics </a></h1>
+                <h1><a href="./">Data Primalytics </a></h1>
                 <nav><ul>
-                    <li><a href="../category/excel.html">Excel</a></li>
-                    <li><a href="../category/misc.html">misc</a></li>
+                    <li class="active"><a href="./category/excel.html">Excel</a></li>
+                    <li><a href="./category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="./fantasy-basketball-cheat-sheet-part-2-vlookup-and-other-useful-excel-functions.html" rel="bookmark"
+           title="Permalink to Fantasy Basketball Cheat Sheet Part 2: VLOOKUP and Other Useful Excel Functions">Fantasy Basketball Cheat Sheet Part 2: VLOOKUP and Other Useful Excel Functions</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="../fantasy-basketball-cheat-sheet-part-2-my-ranking-formula.html">Fantasy Basketball Cheat Sheet Part 2: My Ranking Formula</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2018-06-01T00:00:00-07:00">
                 Published: Fri 01 June 2018
         </abbr>
 
         <address class="vcard author">
-                By                         <a class="url fn" href="../author/john-cabiles.html">John Cabiles</a>
+                By                         <a class="url fn" href="./author/john-cabiles.html">John Cabiles</a>
         </address>
-<p>In <a href="../category/excel.html">Excel</a>.</p>
-<p>tags: <a href="../tag/excel.html">excel</a> <a href="../tag/nba.html">nba</a> <a href="../tag/fantasybball.html">fantasybball</a> </p>
-</footer><!-- /.post-info --><h2>What This Post Will Cover</h2>
+<p>In <a href="./category/excel.html">Excel</a>.</p>
+<p>tags: <a href="./tag/excel.html">excel</a> <a href="./tag/nba.html">nba</a> <a href="./tag/fantasybball.html">fantasybball</a> </p>
+</footer><!-- /.post-info -->      <h2>What This Post Will Cover</h2>
 <p>In this blog post, I will explain the components of the cheat sheet that I created in Excel to help me win (2nd place) in fantasy basketball. If you haven't already, it might be a good idea to at least skim <a href="https://jcabiles.github.io/fantasy-basketball-cheat-sheet-part-1-an-introduction-to-fantasy-basketball.html">the first post I wrote in this series</a>.  Part 1 explains what fantasy basketball is, how to beat it, and how this cheat sheet helped me get closer to winning.</p>
 <h2>My Fantasy Basketball Cheat Sheet</h2>
 <p><a href="https://docs.google.com/spreadsheets/d/11-x8N2TBA3emMWq_4gxoa8d_MbVdc4Cb2gBIBSpJ2rg/edit?usp=sharing">Here is a link to the cheat sheet I used for fantasy basketball</a>.  </p>
@@ -49,84 +54,11 @@
 
 <p>We see two important Excel functions: RANK and VLOOKUP.  We also see the COLUMN function, which is something I used to make it easier to copy the formula to other cells.  (I'll explain this later, but basically the VLOOKUP function's third argument doesn't automatically increment itself.  The COLUMN function remedied this annoying issue).</p>
 <p>We also see the $ sign in parts of this formula.  The $ signifies "absolute value".  In Excel (or Google Sheets), when you copy a formula from one cell to another, Excel automatically increments it.  The $ sign ensures that the column (represented by capital letters) or row (represented by numbers) won't be incremented.  For example, $A2 tells Excel: if I copy this formula to other cells, you can change the row value in the formula but <em>do not</em> change the column value... make sure the formulas always have Column A in that part of the argument.</p>
-<h2>VLOOKUP</h2>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+<h2>VLOOKUP</h2>
+    </div><!-- /.entry-content -->
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../fantasy-basketball-cheat-sheet-part-1-an-introduction-to-fantasy-basketball.html" rel="bookmark"
-                           title="Permalink to Fantasy Basketball Cheat Sheet Part 1: An Introduction to Fantasy Basketball">Fantasy Basketball Cheat Sheet Part 1: An Introduction to Fantasy Basketball</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-05-09T00:00:00-07:00">
-                Published: Wed 09 May 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/john-cabiles.html">John Cabiles</a>
-        </address>
-<p>In <a href="../category/excel.html">Excel</a>.</p>
-
-</footer><!-- /.post-info -->                <hr>
-<h2>Intro</h2>
-<p>I played fantasy basketball for the first time this past NBA season.  Despite <a href="https://www.youtube.com/watch?v=NZf9NFaCQHQ">Charles Barkley's negative opinion on sports analytics</a>, I thought it would be worthwhile to use data analysis tools to help me make my fantasy team more competitive.</p>
-<p>I won 2nd place in my fantasy league, so …</p>
-                <a class="readmore" href="../fantasy-basketball-cheat-sheet-part-1-an-introduction-to-fantasy-basketball.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../a-test-on-displaying-r-plots-on-pelican.html" rel="bookmark"
-                           title="Permalink to A Test on Displaying R Plots on Pelican">A Test on Displaying R Plots on Pelican</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-04-21T00:00:00-07:00">
-                Published: Sat 21 April 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/john-cabiles.html">John Cabiles</a>
-        </address>
-<p>In <a href="../category/misc.html">misc</a>.</p>
-
-</footer><!-- /.post-info -->                <h2>Intro</h2>
-<p>I'm not entirely sure how markdown files containing R code will look on this Pelican website.  To make sure that plots I generate will actually show up, I've created a really simply plot on this R markdown file.  Then I'll see if the plot will be successfully displayed on …</p>
-                <a class="readmore" href="../a-test-on-displaying-r-plots-on-pelican.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="../intro-to-data-primalytics.html" rel="bookmark"
-                           title="Permalink to Intro to Data Primalytics">Intro to Data Primalytics</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-04-20T18:30:00-07:00">
-                Published: Fri 20 April 2018
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="../author/john-cabiles.html">John Cabiles</a>
-        </address>
-<p>In <a href="../category/misc.html">Misc</a>.</p>
-
-</footer><!-- /.post-info -->                <p>This blog will be a collection of my data analysis projects.</p>
-                <a class="readmore" href="../intro-to-data-primalytics.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>links</h2>
